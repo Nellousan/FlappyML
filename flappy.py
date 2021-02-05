@@ -28,7 +28,7 @@ game = fpc.game(p_count, 1000, 400)
 screen = pg.display.set_mode((1400, 900))
 visualizer = nn.Visualizer(pg.Vector2(600, 900))
 console = nn.Console(pg.Vector2(800, 300))
-network = nn.NeuralNetwork(0, 4, (10, 10, 5, 5, 1))
+network = nn.NeuralNetwork(0, 4, (6, 5, 5, 1))
 nets = ne.NeuroEvolution(network, p_count)
 
 def updateWindow():
