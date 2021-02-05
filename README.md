@@ -58,5 +58,5 @@ This observation was really the coolest thing about this project and made it ext
 ## Conclusion
 
 I don't have much to say in conclusion beside that this project was a blast to go through, from the very start where i didn't know anything about Machine Learning to the very end.\
-This projetc was by far the most interesting that i had done at this point of my life and i hope this readme was interesting and gave you a little overview of the fasination i've gone through.\
+This project was by far the most interesting that i had done at this point of my life and i hope this readme was interesting and gave you a little overview of the fasination i've gone through.\
 I also hope my english was perfectly intelligible and sorry there some parts poorly written.
