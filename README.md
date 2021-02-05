@@ -27,7 +27,7 @@ The "cool flashy part" of the project was, of course the network visualizer that
 The principle of natural selection was used in this project to make the AI better at the game.\
 The program starts by making a bunch of random AI on the first episode, then the AIs play the game.\
 Then we take the last survivor AI, copy it and tweak random, weights by random values in each of the childs.\
-By doing this, the best AI would survive each turn and will eventually reach perfection after a certain amount of run. I achieved to reach perfection on ~90 episodes in average with teh best combination of parameter that i found (nb of layers, learning rate, mutation rate etc.)\
+By doing this, the best AI would survive each turn and will eventually reach perfection after a certain amount of run. I achieved to reach perfection on ~90 episodes in average with the best combination of parameter that i found (nb of layers, learning rate, mutation rate etc.)\
 \
 To avoid "degeneracy", meaning child AI performing worse than the parents because the child "mutated" too much, i started using a "mutation rate" preventing that every weights would mutate in each copy. I enventually found that 0.1 was a good rate for this project, meaning only 10% (in average) of the weights would "mutate" each generation.\
 \
@@ -58,5 +58,5 @@ This observation was really the coolest thing about this project and made it ext
 ## Conclusion
 
 I don't have much to say in conclusion beside that this project was a blast to go through, from the very start where i didn't know anything about Machine Learning to the very end.\
-This project was by far the most interesting that i had done at this point of my life and i hope this readme was interesting and gave you a little overview of the fasination i've gone through.\
+This project was by far the most interesting that i had done at this point of my life and i hope this readme was interesting and gave you a little overview of the fascination i've gone through.\
 I also hope my english was perfectly intelligible and sorry there some parts poorly written.
