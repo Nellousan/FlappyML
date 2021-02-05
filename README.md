@@ -6,7 +6,7 @@ This project was about learning how basic neural networks works and starting a n
 The libraries used in this project were numpy and pygame.\
 (this project was done during May 2019 i reuploaded it to github to show it to someone)
 
-![Image](./images/pic1.png)
+![Image](./images/gif1.gif)
 
 ## Features
 
