@@ -31,7 +31,7 @@ By doing this, the best AI would survive each turn and will eventually reach per
 \
 To avoid "degeneracy", meaning child AI performing worse than the parents because the child "mutated" too much, i started using a "mutation rate" preventing that every weights would mutate in each copy. I enventually found that 0.1 was a good rate for this project, meaning only 10% (in average) of the weights would "mutate" each generation.\
 \
-Neural Network-wise, there is nothing special about it, its layers basic dense layer.\
+Neural Network-wise, there is nothing special about it, its layers are basic dense layer.\
 The input are, in order (cf. picture from top to bottom):
 * The height of the player (the AI)
 * The height of the top of the next object.
