@@ -26,7 +26,7 @@ The "cool flashy part" of the project was, of course the network visualizer that
 
 The principle of natural selection was used in this project to make the AI better at the game.\
 The program starts by making a bunch of random AI on the first episode, then the AIs play the game.\
-Then we take the last survivor AI, copy it and tweak random, weights by random values in each of the childs.\
+Then we take the last survivor AI, copy it and tweak random weights by random values in each of the childs.\
 By doing this, the best AI would survive each turn and will eventually reach perfection after a certain amount of run. I achieved to reach perfection on ~90 episodes in average with the best combination of parameters that i found (nb of layers, learning rate, mutation rate etc.)\
 \
 To avoid "degeneracy", meaning child AI performing worse than the parents because the child "mutated" too much, i started using a "mutation rate" preventing that every weights would mutate in each copy. I enventually found that 0.1 was a good rate for this project, meaning only 10% (in average) of the weights would "mutate" each generation.\
