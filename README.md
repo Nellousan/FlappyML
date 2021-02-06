@@ -20,7 +20,7 @@ This project was about making:
 The game is a Flappy-bird-like game, you are the little colored square and you have to avoid hitting the obstacles and the top/bottom border.
 A gravity vector is applied to you, meaning you will fall faster and faster, and when you input something, your velocity vector is set to an upward velocity, meaning that you will go up slightly before falling down again because of the gravity vector (nothing special here).\
 \
-The "cool flashy part" of the project was, of course the network visualizer that you can observe blink while the AI is playing. A dark colored neuron means that he's less activated, while a bright colored neuron means that he's highly activated. The lines connecting the neurons are the weights, a red line means that the weight is negative, and a green on means that weight is positive.
+The "cool flashy part" of the project was, of course the network visualizer that you can observe blink while the AI is playing. A dark colored neuron means that he's less activated, while a bright colored neuron means that he's highly activated. The lines connecting the neurons are the weights, a red line means that the weight is negative, and a green one means that the weight is positive.
 
 ## Principles
 
